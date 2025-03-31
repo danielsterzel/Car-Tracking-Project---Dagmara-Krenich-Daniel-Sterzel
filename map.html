@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b740fff24a875de96a156e0c7e9a33bb {
+                #map_2d77cd324efe4a9206cf2f807e548a61 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,19 +39,19 @@
 <body>
     
     
-            <div class="folium-map" id="map_b740fff24a875de96a156e0c7e9a33bb" ></div>
+            <div class="folium-map" id="map_2d77cd324efe4a9206cf2f807e548a61" ></div>
         
 </body>
 <script>
     
     
-            var map_b740fff24a875de96a156e0c7e9a33bb = L.map(
-                "map_b740fff24a875de96a156e0c7e9a33bb",
+            var map_2d77cd324efe4a9206cf2f807e548a61 = L.map(
+                "map_2d77cd324efe4a9206cf2f807e548a61",
                 {
-                    center: [45.5236, -122.675],
+                    center: [45.35, -121.6972],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 10,
+  "zoom": 12,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -63,7 +63,7 @@
 
         
     
-            var tile_layer_5ae8d726a2de2a2201f0f35863e6f0bf = L.tileLayer(
+            var tile_layer_66647c8f013ab0fd8f218d433e83a5e6 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -80,7 +80,44 @@
             );
         
     
-            tile_layer_5ae8d726a2de2a2201f0f35863e6f0bf.addTo(map_b740fff24a875de96a156e0c7e9a33bb);
+            tile_layer_66647c8f013ab0fd8f218d433e83a5e6.addTo(map_2d77cd324efe4a9206cf2f807e548a61);
         
+    
+            var circle_marker_6a720ce9e4b514ff9638b875f813ed13 = L.circleMarker(
+                [45.45, -121.695],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_2d77cd324efe4a9206cf2f807e548a61);
+        
+    
+            var marker_84dde238507cfc4265e0c681fa11a09f = L.marker(
+                [45.3488, -121.6932],
+                {
+}
+            ).addTo(map_2d77cd324efe4a9206cf2f807e548a61);
+        
+    
+            var icon_4902fa2978243125febb9954bd3d459b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fa-solid fa-car-side",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_84dde238507cfc4265e0c681fa11a09f.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_84dde238507cfc4265e0c681fa11a09f.setIcon(icon_4902fa2978243125febb9954bd3d459b);
+            
 </script>
 </html>
