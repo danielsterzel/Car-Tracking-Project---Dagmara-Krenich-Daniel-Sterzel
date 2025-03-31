@@ -6,13 +6,13 @@
 
 ## 📌 Features  
 ✔️ **Save your car's location** by clicking on the map.  
-✔️ **Find the shortest route** back using **A* pathfinding**.  
+✔️ **Find the shortest route** back using **A* *.  
 ✔️ **Interactive map** powered by **Folium & OSM**.  
 ✔️ **Flask web interface** for easy usage.  
 ✔️ **Pin disappears** once you reach your car.  
 
 ---
-
+in progress: 
 ## 🚀 How to Run  
 ### 1️⃣ Clone the Repository  
 ```bash
