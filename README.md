@@ -5,7 +5,7 @@
 ---
 ## 📌 Features  
 ✔️ **Save your car's location** by clicking on the map.  
-✔️ **Find the shortest route** back using *A* algorithm!*.  
+✔️ **Find the shortest route** back using *A** algorithm!  
 ✔️ **Interactive map** powered by **Folium & OSM**.  
 ✔️ **Flask web interface** for easy usage.  
 ✔️ **Pin disappears** once you reach your car.  
