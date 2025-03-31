@@ -17,9 +17,9 @@ in progress:
 ```bash
 git clone https://github.com/dagmara1223/Car-Tracking-Project---Dagmara-Krenich-Daniel-Sterzel.git
 cd Car-Tracking-Project
+---
 
-
-🔧 Technologies Used
+## 🔧 Technologies Used
 🐍 Python (Flask, Folium, Geopy, NetworkX, OSMnx)
 
 🚀 A Pathfinding Algorithm*
